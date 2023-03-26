@@ -8,7 +8,6 @@ function App() {
       
       {/* <Axios1/> */}
       {/* <Axiosjsontable/> */}
-      {/* <Newsapi/> */}
       <Weather/>
     </div>
   );
