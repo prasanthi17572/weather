@@ -1,0 +1,59 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-image: url(https://cdn.pixabay.com/photo/2019/05/29/09/41/sky-4237062__480.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }.all{
+    /* background-color: #b8eaf8; */
+    background-color:rgb(235, 140, 252) ;
+    margin-top: 50px;
+    border-radius: 30px;
+  }
+  .textarea{
+    width: 130px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color:rgb(219, 170, 228) ;
+  }
+  .btn{
+    background-color: rgb(202, 154, 212);
+    border-radius: 15px;
+    height: 20px;
+    width: 60px;
+  }

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Axios1 from './Axios1';
+// import Axiosjsontable from './Axiosjsontable';
+import Newsapi from './newsapi';
+import Weather from './weather';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {/* <Axios1/> */}
+      {/* <Axiosjsontable/> */}
+      {/* <Newsapi/> */}
+      <Weather/>
     </div>
   );
 }
